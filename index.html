@@ -114,10 +114,10 @@
               </div>
             </div>
             <h3>Loisirs</h3>
-              <li>Voyage : j'ai envie de découvrir le monde et de nouvelles cultures.</li>
-              <li>Apprendre : j'aime m'intéresser à ce qui m'entoure.</li>
-              <li>High Tech : passionné par les nouvelles technologies.</li>
-              <li>Montage/retouche photo (novice)</li>
+            <li>Voyage : j'ai envie de découvrir le monde et de nouvelles cultures.</li>
+            <li>Apprendre : j'aime m'intéresser à ce qui m'entoure.</li>
+            <li>High Tech : passionné par les nouvelles technologies.</li>
+            <li>Montage/retouche photo (novice)</li>
           </div>
         </div>
 
@@ -480,8 +480,8 @@
 
           </div>
 
-          <!-- <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form method="post" name="contact_form" action="./portefolio/forms/contact.php" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Votre nom</label>
@@ -489,29 +489,17 @@
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Votre email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                  <input type="text" name="email" class="form-control" id="email" required>
                 </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Sujet</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Chargement</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Votre message a été envoyé. Merci !</div>
-              </div>
-              <div class="text-center"><button type="submit">Envoyer un message</button></div>
+                <div class="form-group">
+                  <label for="name">Message</label>
+                  <textarea class="form-control" name="message" rows="10" required></textarea>
+                </div>
+                <div class="text-center"><button type="submit">Envoyer</button></div>
             </form>
-          </div> -->
+          </div>
 
         </div>
-
-      </div>
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
@@ -539,8 +527,8 @@
   <script src="./portefolio/assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="./portefolio/assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
   <script src="./portefolio/assets/js/main.js"></script>
+  <script src="./portefolio/assets/js/form.js"></script>
 
 </body>
 
